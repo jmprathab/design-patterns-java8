@@ -8,6 +8,7 @@ public abstract class Knife {
     public abstract void describe();
 
     public enum KnifeType {
+        NONE,
         CHEF,
         HOUSEHOLD,
         BUTCHER
